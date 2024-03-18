@@ -11,18 +11,27 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vogelabner.Shoppis"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/splash.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.vogelabner.Shoppis"
     },
     "web": {
       "favicon": "./assets/splash.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ca6845e0-4e0f-4760-82d0-aaef2d0617dd"
+      }
     }
   }
 }
